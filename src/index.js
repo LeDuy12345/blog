@@ -55,6 +55,6 @@ route(app);
 // console.log('Path: ',path.join(__dirname,'/views/layouts/main.hbs'))
 
 //show file static
-app.use(express.static(path.join(__dirname, 'public/img')));
+                app.use(express.static(path.join(__dirname, 'public/img')));
 app.use(express.static(path.join(__dirname, 'public/css')));
 //hellllo
